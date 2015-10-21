@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module xmlns="urn:jboss:module:1.1" name="org.apache.jclouds.blobstore">
-    <resources>
-        <resource-root path="jclouds-blobstore-${version}.jar"/>
-        <resource-root path="atmos-${version}.jar"/>
-        <resource-root path="aws-s3-${version}.jar"/>
-        <resource-root path="azureblob-${version}.jar"/>
-        <resource-root path="cloudfiles-${version}.jar"/>
-        <resource-root path="cloudfiles-uk-${version}.jar"/>
-        <resource-root path="cloudfiles-us-${version}.jar"/>
-        <resource-root path="filesystem-${version}.jar"/>
-        <resource-root path="hpcloud-objectstorage-${version}.jar"/>
-        <resource-root path="openstack-common-${version}.jar"/>
-        <resource-root path="openstack-keystone-${version}.jar"/>
-        <resource-root path="openstack-swift-${version}.jar"/>
-        <resource-root path="s3-${version}.jar"/>
-        <resource-root path="sts-${version}.jar"/>
-        <resource-root path="swift-${version}.jar"/>
-        <resource-root path="java-xmlbuilder-0.4.jar"/>
-    </resources>
+  <resources>
+    <resource-root path="atmos-${jclouds.version}.jar"/>
+    <resource-root path="aws-s3-${jclouds.version}.jar"/>
+    <resource-root path="azureblob-${jclouds.version}.jar"/>
+    <resource-root path="base64-2.3.8.jar"/>
+    <resource-root path="filesystem-${jclouds.version}.jar"/>
+    <resource-root path="guice-multibindings-3.0.jar"/>
+    <resource-root path="hpcloud-objectstorage-${jclouds.version}.jar"/>
+    <resource-root path="java-xmlbuilder-1.1.jar"/>
+    <resource-root path="jclouds-blobstore-${jclouds.version}.jar"/>
+    <resource-root path="openstack-common-${jclouds.version}.jar"/>
+    <resource-root path="openstack-keystone-${jclouds.version}.jar"/>
+    <resource-root path="openstack-swift-${jclouds.version}.jar"/>
+    <resource-root path="rackspace-cloudfiles-${jclouds.version}.jar"/>
+    <resource-root path="rackspace-cloudfiles-uk-${jclouds.version}.jar"/>
+    <resource-root path="rackspace-cloudfiles-us-${jclouds.version}.jar"/>
+    <resource-root path="rackspace-cloudidentity-${jclouds.version}.jar"/>
+    <resource-root path="s3-${jclouds.version}.jar"/>
+    <resource-root path="sts-${jclouds.version}.jar"/>
+    <resource-root path="swift-${jclouds.version}.jar"/>
+  </resources>
 
-    <dependencies>
-        <module name="org.apache.jclouds.core"/>
-        <module name="org.slf4j"/>
-    </dependencies>
+  <dependencies>
+    <module name="org.apache.jclouds.core"/>
+    <module name="org.slf4j"/>
+    <module name="com.google.guava"/>
+  </dependencies>
 </module>
