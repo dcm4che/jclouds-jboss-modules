@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module xmlns="urn:jboss:module:1.1" name="org.apache.jclouds.core">
     <resources>
-        <resource-root path="jclouds-core-${version}.jar"/>
+        <resource-root path="jclouds-core-${jclouds.version}.jar"/>
         <resource-root path="aopalliance-1.0.jar"/>
-        <resource-root path="gson-2.2.4.jar"/>
-        <resource-root path="guava-17.0.jar"/>
+        <resource-root path="gson-2.3.jar"/>
         <resource-root path="guice-3.0.jar"/>
         <resource-root path="guice-assistedinject-3.0.jar"/>
         <resource-root path="javax.inject-1.jar"/>
@@ -15,7 +14,8 @@
 
     <dependencies>
         <module name="org.slf4j"/>
-		<module name="javax.api"/>
-		<module name="javax.xml.bind.api"/>
+        <module name="javax.api"/>
+        <module name="javax.xml.bind.api"/>
+        <module name="com.google.guava"/>
     </dependencies>
 </module>

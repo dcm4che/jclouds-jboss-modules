@@ -11,7 +11,7 @@ Build
 Install
 =======
 
-Unzip the content of _target/jclouds-jboss-modules-1.8.1.zip_ into the jboss root directory, e.g.
+Unzip the content of _target/jclouds-jboss-modules-1.9.1-noguava.zip_ into the Wildfly root directory, e.g.
 ```
-unzip target/jclouds-jboss-modules-1.8.1.zip -d /jboss-as-7.1.1.Final/
+unzip target/jclouds-jboss-modules-1.9.1-noguava.zip -d ~/wildfly-9.0.1.Final/
 ```
