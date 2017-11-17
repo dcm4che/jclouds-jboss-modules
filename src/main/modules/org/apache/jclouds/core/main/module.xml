@@ -4,13 +4,12 @@
         <resource-root path="jclouds-core-${jclouds.version}.jar"/>
         <resource-root path="jclouds-slf4j-${jclouds.version}.jar"/>
         <resource-root path="aopalliance-1.0.jar"/>
-        <resource-root path="gson-2.3.jar"/>
+        <resource-root path="gson-2.5.jar"/>
         <resource-root path="guice-3.0.jar"/>
         <resource-root path="guice-assistedinject-3.0.jar"/>
         <resource-root path="javax.inject-1.jar"/>
         <resource-root path="jsr250-api-1.0.jar"/>
         <resource-root path="jsr311-api-1.1.1.jar"/>
-        <resource-root path="rocoto-6.2.jar"/>
     </resources>
 
     <dependencies>

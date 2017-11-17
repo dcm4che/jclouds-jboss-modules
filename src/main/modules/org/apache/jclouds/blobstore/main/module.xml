@@ -7,10 +7,8 @@
     <resource-root path="base64-2.3.8.jar"/>
     <resource-root path="filesystem-${jclouds.version}.jar"/>
     <resource-root path="guice-multibindings-3.0.jar"/>
-    <resource-root path="hpcloud-objectstorage-${jclouds.version}.jar"/>
     <resource-root path="java-xmlbuilder-1.1.jar"/>
     <resource-root path="jclouds-blobstore-${jclouds.version}.jar"/>
-    <resource-root path="openstack-common-${jclouds.version}.jar"/>
     <resource-root path="openstack-keystone-${jclouds.version}.jar"/>
     <resource-root path="openstack-swift-${jclouds.version}.jar"/>
     <resource-root path="rackspace-cloudfiles-${jclouds.version}.jar"/>
@@ -19,7 +17,6 @@
     <resource-root path="rackspace-cloudidentity-${jclouds.version}.jar"/>
     <resource-root path="s3-${jclouds.version}.jar"/>
     <resource-root path="sts-${jclouds.version}.jar"/>
-    <resource-root path="swift-${jclouds.version}.jar"/>
   </resources>
 
   <dependencies>
