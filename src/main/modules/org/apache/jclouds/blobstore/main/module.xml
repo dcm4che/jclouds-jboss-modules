@@ -28,6 +28,9 @@
     <module name="org.apache.jclouds.core"/>
     <module name="org.slf4j"/>
     <module name="javax.api"/>
+    <module name="javax.annotation.api"/>
+    <module name="javax.inject.api"/>
+    <module name="javax.ws.rs.api"/>
     <module name="javax.xml.bind.api"/>
     <module name="com.google.guava"/>
   </dependencies>
