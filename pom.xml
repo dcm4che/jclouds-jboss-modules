@@ -2,10 +2,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.dcm4che</groupId>
   <artifactId>jclouds-jboss-modules</artifactId>
-  <version>2.1.2-noguava</version>
+  <version>2.2.0-noguava</version>
   <packaging>pom</packaging>
   <properties>
-    <jclouds.version>2.1.2</jclouds.version>
+    <jclouds.version>2.2.0</jclouds.version>
   </properties>
   <dependencies>
     <dependency>
@@ -78,7 +78,7 @@
       <extension>
         <groupId>org.apache.maven.wagon</groupId>
         <artifactId>wagon-ssh</artifactId>
-        <version>2.10</version>
+        <version>3.3.3</version>
       </extension>
     </extensions>
   </build>

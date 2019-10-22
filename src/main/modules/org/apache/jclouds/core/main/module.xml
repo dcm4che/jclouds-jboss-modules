@@ -2,10 +2,10 @@
 <module xmlns="urn:jboss:module:1.1" name="org.apache.jclouds.core">
     <resources>
         <resource-root path="aopalliance-1.0.jar"/>
-        <resource-root path="gson-2.5.jar"/>
         <resource-root path="guice-3.0.jar"/>
         <resource-root path="guice-assistedinject-3.0.jar"/>
         <resource-root path="jclouds-core-${jclouds.version}.jar"/>
+        <resource-root path="jclouds-gson-${jclouds.version}.jar"/>
         <resource-root path="jclouds-slf4j-${jclouds.version}.jar"/>
     </resources>
 
