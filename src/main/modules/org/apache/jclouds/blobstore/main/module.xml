@@ -9,7 +9,6 @@
     <resource-root path="filesystem-${jclouds.version}.jar"/>
     <resource-root path="googlecloud-${jclouds.version}.jar"/>
     <resource-root path="google-cloud-storage-${jclouds.version}.jar"/>
-    <resource-root path="guice-multibindings-3.0.jar"/>
     <resource-root path="java-xmlbuilder-1.1.jar"/>
     <resource-root path="jclouds-allblobstore-${jclouds.version}.jar"/>
     <resource-root path="jclouds-blobstore-${jclouds.version}.jar"/>
