@@ -2,10 +2,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.dcm4che</groupId>
   <artifactId>jclouds-jboss-modules</artifactId>
-  <version>2.3.0-noguava</version>
+  <version>2.4.0-noguava</version>
   <packaging>pom</packaging>
   <properties>
-    <jclouds.version>2.3.0</jclouds.version>
+    <jclouds.version>2.4.0</jclouds.version>
   </properties>
   <dependencies>
     <dependency>
@@ -15,7 +15,7 @@
       <exclusions>
         <exclusion>
           <groupId>javax.annotation</groupId>
-          <artifactId>jsr250-api</artifactId>
+          <artifactId>javax.annotation-api</artifactId>
         </exclusion>
         <exclusion>
           <groupId>javax.inject</groupId>
@@ -24,6 +24,10 @@
         <exclusion>
           <groupId>javax.ws.rs</groupId>
           <artifactId>javax.ws.rs-api</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>com.sun.xml.bind</groupId>
+          <artifactId>jaxb-impl</artifactId>
         </exclusion>
         <exclusion>
           <groupId>com.google.guava</groupId>
@@ -61,7 +65,7 @@
     <plugins>
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
-        <version>3.1.1</version>
+        <version>3.3.0</version>
         <configuration>
           <appendAssemblyId>false</appendAssemblyId>
           <descriptors>
@@ -82,7 +86,7 @@
       <extension>
         <groupId>org.apache.maven.wagon</groupId>
         <artifactId>wagon-ssh</artifactId>
-        <version>3.3.3</version>
+        <version>3.4.3</version>
       </extension>
     </extensions>
   </build>

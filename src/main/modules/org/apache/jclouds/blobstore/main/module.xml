@@ -5,11 +5,9 @@
     <resource-root path="aws-s3-${jclouds.version}.jar"/>
     <resource-root path="azureblob-${jclouds.version}.jar"/>
     <resource-root path="b2-${jclouds.version}.jar"/>
-    <resource-root path="base64-2.3.8.jar"/>
     <resource-root path="filesystem-${jclouds.version}.jar"/>
     <resource-root path="googlecloud-${jclouds.version}.jar"/>
     <resource-root path="google-cloud-storage-${jclouds.version}.jar"/>
-    <resource-root path="java-xmlbuilder-1.1.jar"/>
     <resource-root path="jclouds-allblobstore-${jclouds.version}.jar"/>
     <resource-root path="jclouds-blobstore-${jclouds.version}.jar"/>
     <resource-root path="oauth-${jclouds.version}.jar"/>
