@@ -5,6 +5,7 @@
     <resource-root path="aws-s3-${jclouds.version}.jar"/>
     <resource-root path="azureblob-${jclouds.version}.jar"/>
     <resource-root path="b2-${jclouds.version}.jar"/>
+    <resource-root path="glacier-${jclouds.version}.jar"/>
     <resource-root path="filesystem-${jclouds.version}.jar"/>
     <resource-root path="googlecloud-${jclouds.version}.jar"/>
     <resource-root path="google-cloud-storage-${jclouds.version}.jar"/>
