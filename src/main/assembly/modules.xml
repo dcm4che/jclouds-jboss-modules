@@ -16,32 +16,12 @@
   </fileSets>
   <dependencySets>
     <dependencySet>
-      <outputDirectory>modules/org/apache/jclouds/core/main</outputDirectory>
+      <outputDirectory>modules/org/apache/jclouds/main</outputDirectory>
       <includes>
         <include>org.apache.jclouds:jclouds-core</include>
         <include>org.apache.jclouds.driver:jclouds-slf4j</include>
-      </includes>
-      <useProjectArtifact>false</useProjectArtifact>
-      <useTransitiveFiltering>true</useTransitiveFiltering>
-    </dependencySet>
-    <dependencySet>
-      <outputDirectory>modules/org/apache/jclouds/blobstore/main</outputDirectory>
-      <includes>
         <include>org.apache.jclouds:jclouds-blobstore</include>
-      </includes>
-      <useProjectArtifact>false</useProjectArtifact>
-    </dependencySet>
-    <dependencySet>
-      <outputDirectory>modules/org/apache/jclouds/blobstore/main</outputDirectory>
-      <includes>
         <include>org.apache.jclouds:jclouds-allblobstore</include>
-      </includes>
-      <useProjectArtifact>false</useProjectArtifact>
-      <useTransitiveFiltering>true</useTransitiveFiltering>
-    </dependencySet>
-    <dependencySet>
-      <outputDirectory>modules/org/apache/jclouds/blobstore/main</outputDirectory>
-      <includes>
         <include>org.apache.jclouds.api:filesystem</include>
       </includes>
       <useProjectArtifact>false</useProjectArtifact>
