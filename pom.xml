@@ -2,10 +2,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.dcm4che</groupId>
   <artifactId>jclouds-jboss-modules</artifactId>
-  <version>2.5.0</version>
+  <version>2.6.0</version>
   <packaging>pom</packaging>
   <properties>
-    <jclouds.version>2.5.0</jclouds.version>
+    <jclouds.version>2.6.0</jclouds.version>
   </properties>
   <dependencies>
     <dependency>
@@ -68,7 +68,7 @@
     <repository>
       <id>www.dcm4che.org</id>
       <name>dcm4che Repository</name>
-      <url>scp://www.dcm4che.org/home/maven2</url>
+      <url>scp://maven.dcm4che.org:52771/data/dcm4che-maven-nginx/maven2</url>
     </repository>
   </distributionManagement>
 </project>
