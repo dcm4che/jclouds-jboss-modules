@@ -1,35 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module xmlns="urn:jboss:module:1.1" name="org.apache.jclouds">
   <resources>
+    <resource-root path="angus-activation-2.0.2.jar"/>
     <resource-root path="aopalliance-1.0.jar"/>
-    <resource-root path="checker-qual-3.33.0.jar"/>
-    <resource-root path="error_prone_annotations-2.18.0.jar"/>
-    <resource-root path="failureaccess-1.0.1.jar"/>
-    <resource-root path="gson-2.10.1.jar"/>
-    <resource-root path="guava-32.0.0-jre.jar"/>
-    <resource-root path="guice-7.0.0.jar"/>
-    <resource-root path="guice-assistedinject-7.0.0.jar"/>
-    <resource-root path="j2objc-annotations-2.8.jar"/>
-    <resource-root path="jakarta.activation-1.2.2.jar"/>
-    <resource-root path="jakarta.xml.bind-api-2.3.3.jar"/>
-    <resource-root path="jakarta.annotation-api-2.0.0.jar"/>
-    <resource-root path="jakarta.inject-api-2.0.1.jar"/>
-    <resource-root path="jakarta.ws.rs-api-3.0.0.jar"/>
-    <resource-root path="jaxb-impl-2.3.3.jar"/>
-    <resource-root path="jsr305-3.0.2.jar"/>
-    <resource-root path="listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
     <resource-root path="atmos-${jclouds.version}.jar"/>
     <resource-root path="aws-s3-${jclouds.version}.jar"/>
     <resource-root path="azureblob-${jclouds.version}.jar"/>
     <resource-root path="b2-${jclouds.version}.jar"/>
+    <resource-root path="checker-qual-3.43.0.jar"/>
+    <resource-root path="error_prone_annotations-2.27.0.jar"/>
+    <resource-root path="failureaccess-1.0.2.jar"/>
     <resource-root path="filesystem-${jclouds.version}.jar"/>
     <resource-root path="glacier-${jclouds.version}.jar"/>
     <resource-root path="googlecloud-${jclouds.version}.jar"/>
     <resource-root path="google-cloud-storage-${jclouds.version}.jar"/>
+    <resource-root path="gson-2.11.0.jar"/>
+    <resource-root path="guava-33.4.0-jre.jar"/>
+    <resource-root path="guice-7.0.0.jar"/>
+    <resource-root path="guice-assistedinject-7.0.0.jar"/>
+    <resource-root path="istack-commons-runtime-4.1.2.jar"/>
+    <resource-root path="j2objc-annotations-3.0.0.jar"/>
+    <resource-root path="jakarta.activation-api-2.1.3.jar"/>
+    <resource-root path="jakarta.annotation-api-2.0.0.jar"/>
+    <resource-root path="jakarta.inject-api-2.0.1.jar"/>
+    <resource-root path="jakarta.ws.rs-api-3.0.0.jar"/>
+    <resource-root path="jakarta.xml.bind-api-4.0.2.jar"/>
+    <resource-root path="jaxb-core-4.0.5.jar"/>
+    <resource-root path="jaxb-runtime-4.0.5.jar"/>
     <resource-root path="jclouds-allblobstore-${jclouds.version}.jar"/>
     <resource-root path="jclouds-blobstore-${jclouds.version}.jar"/>
     <resource-root path="jclouds-core-${jclouds.version}.jar"/>
     <resource-root path="jclouds-slf4j-${jclouds.version}.jar"/>
+    <resource-root path="jsr305-3.0.2.jar"/>
+    <resource-root path="listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
     <resource-root path="oauth-${jclouds.version}.jar"/>
     <resource-root path="openstack-keystone-${jclouds.version}.jar"/>
     <resource-root path="openstack-swift-${jclouds.version}.jar"/>
@@ -39,6 +42,7 @@
     <resource-root path="rackspace-cloudidentity-${jclouds.version}.jar"/>
     <resource-root path="s3-${jclouds.version}.jar"/>
     <resource-root path="sts-${jclouds.version}.jar"/>
+    <resource-root path="txw2-4.0.5.jar"/>
   </resources>
 
   <dependencies>
